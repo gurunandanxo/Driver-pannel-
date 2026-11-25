@@ -1,0 +1,35 @@
+name: cityride_driver_panel
+description: "CITYRIDE Smart Public Transportation Platform - Driver Cockpit & Operations Panel"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^8.2.1
+  audioplayers: ^6.8.1
+  intl: ^0.19.0
+  geolocator: ^13.0.2
+  image_picker: ^1.1.2
+  url_launcher: ^6.3.1
+  shared_preferences: ^2.3.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icon/
+    - assets/images/
+    - assets/audio/
+    - assets/audio/emergency_siren.mp3
+
